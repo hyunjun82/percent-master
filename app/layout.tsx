@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     template: '%s | Percent Master',
   },
   description: '각종 할인율, 이자, 비율, 증감률 등 모든 종류의 퍼센트 계산을 가장 쉽게 해결하세요. 실생활 예제와 상세한 설명까지 제공합니다.',
-  keywords: ['퍼센트 계산기', '할인율 계산', '이자 계산', '비율 계산', '수익률 계산'],
+  keywords: ['퍼센트 계산기', '할인율 계산', '이자 계산', '비율 계산', '수익률 계산', '퍼센트계산', '할인계산기', '증가율계산기', '변화율계산기', 'percent calculator'],
   creator: 'Percent Master',
   publisher: 'JJYU',
   robots: 'index, follow',
   openGraph: {
     title: 'Percent Master: 가장 빠르고 정확한 온라인 퍼센트 계산기',
     description: '무료 온라인 퍼센트 계산기. 할인율, 증가율, 비율 계산을 쉽고 빠르게!',
-    url: 'https://jjyu.co.kr/percent-master',
+    url: 'https://percent-master.vercel.app',
     siteName: 'Percent Master',
     locale: 'ko_KR',
     type: 'website',
@@ -36,10 +36,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <link rel="icon" href="/percent-master/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/percent-master/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/percent-master/favicon-16x16.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/percent-master/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121" crossOrigin="anonymous"></script>
         <meta name="naver-site-verification" content="네이버에서받은코드" />
         <meta name="google-site-verification" content="구글에서받은코드" />

@@ -169,10 +169,10 @@ export default function HomePage() {
             "@type": "WebSite",
             "name": "Percent Master",
             "description": "가장 빠르고 정확한 온라인 퍼센트 계산기. 할인율, 증가율, 비율 계산을 무료로 이용하세요.",
-            "url": "https://jjyu.co.kr/percent-master",
+            "url": "https://percent-master.vercel.app",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://jjyu.co.kr/percent-master/search?q={search_term_string}",
+              "target": "https://percent-master.vercel.app/search?q={search_term_string}",
               "query-input": "required name=search_term_string"
             },
             "sameAs": [
