@@ -45,10 +45,7 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* 상단 광고 - 실제 광고 슬롯 ID로 변경 필요 */}
-      <div className="container mx-auto px-4 py-4">
-        <AdSense adSlot="1264421060" />
-      </div>
+      {/* 광고는 도메인 승인 후 추가 예정 */}
       
       {/* 히어로 섹션 */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20">

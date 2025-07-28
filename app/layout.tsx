@@ -40,9 +40,8 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121" crossOrigin="anonymous"></script>
-        <meta name="naver-site-verification" content="네이버에서받은코드" />
-        <meta name="google-site-verification" content="구글에서받은코드" />
+        <meta name="naver-site-verification" content="a042f905a8ae24d3744422d05cee3b76663a206e" />
+        <meta name="google-site-verification" content="_fpIJ-j5zcYBKmCiAmsw2LYSksJqry_1jqn1s6GpEBw" />
       </head>
       <body className="min-h-screen bg-gray-50 flex flex-col">
         <Navigation />
