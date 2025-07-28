@@ -1,22 +1,8 @@
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
+import AdSense from '@/components/AdSense'
 
 export default function HomePage() {
-  // 애드센스 광고 컴포넌트
-  const AdBanner = () => (
-    <div className="container mx-auto px-4 py-4">
-      <ins className="adsbygoogle"
-           style={{ display: 'block' }}
-           data-ad-client="ca-pub-2442517902625121"
-           data-ad-slot="1234567890"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-        {typeof window !== 'undefined' && (window.adsbygoogle = window.adsbygoogle || []).push({})}
-      </script>
-    </div>
-  );
-
   const calculators = [
     {
       title: '값의 퍼센트 계산',
@@ -59,8 +45,10 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* 상단 광고 */}
-      <AdBanner />
+      {/* 상단 광고 - 실제 광고 슬롯 ID로 변경 필요 */}
+      <div className="container mx-auto px-4 py-4">
+        <AdSense adSlot="1264421060" />
+      </div>
       
       {/* 히어로 섹션 */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20">
