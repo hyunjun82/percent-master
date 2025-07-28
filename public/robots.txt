@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-Sitemap: https://jjyu.co.kr/percent-master/sitemap.xml
+User-agent: Yeti
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://percent-master.vercel.app/sitemap.xml

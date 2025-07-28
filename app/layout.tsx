@@ -41,6 +41,8 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/percent-master/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/percent-master/apple-touch-icon.png" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121" crossOrigin="anonymous"></script>
+        <meta name="naver-site-verification" content="네이버에서받은코드" />
+        <meta name="google-site-verification" content="구글에서받은코드" />
       </head>
       <body className="min-h-screen bg-gray-50 flex flex-col">
         <Navigation />
